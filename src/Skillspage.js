@@ -18,6 +18,14 @@ const Skillspage = () => {
                 <p></p>
                 <p></p>
             </div>
+            <div className="skillslist">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
         </div>
     );
 }

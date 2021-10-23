@@ -40,20 +40,30 @@ code {
   padding: 6px;
 }
 
-/* This customizes the about me section */
-.aboutmepage {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
 /* This customizes the Homepage */
 .homepage {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* This customizes the about me section */
+.aboutmepage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.imagesection {
+  width: 30%;
+  text-align: center;
+  padding: 40px;
+}
+
+.infosection {
+  width: 70%;
+  padding: 100px;
 }
 
 /* This customizes the project page and making the cards */
@@ -102,5 +112,38 @@ code {
   border-radius: 55px;
   width: 100px;
   height: 100px;
-  margin: 0px 20px;
+  margin: 25px 20px;
 }
+
+/* This customizes the contacts page */
+.contactpage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contactsection {
+  width: 50%;
+  margin: 0px 150px;
+}
+
+.contactsection h2 {
+  text-align: center;
+  padding: 25px;  
+}
+
+.formsection {
+  width: 50%;
+  margin: 0px 150px;
+}
+
+.formsection h2 {
+  text-align: center;
+  padding: 25px;
+}
+
+.formsection form{
+  display: flex;
+  flex-direction: column;
+}
+

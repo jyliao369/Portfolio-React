@@ -9,6 +9,9 @@ const AboutMePage = () => {
             <div className="infosection">
                 <p>About Me:</p>
                 <p>Description goes here</p>
+                <p> lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
+                    lorem ipsumlorem ipsumipsumlorem ipsumlorem ipsumlorem 
+                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumipsumlorem ipsum</p>
             </div>
         </div>
     );
