@@ -54,8 +54,8 @@
 
   ## Live Links
 
-  Github Repo: 
+  Github Repo: https://github.com/jyliao369/Portfolio-React
 
-  Deployed Link:
+  Deployed Link: https://jyliao369.github.io/Portfolio-React/
 
   
