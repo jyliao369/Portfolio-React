@@ -1,17 +1,18 @@
 const AboutMePage = () => {
     return (
         <div className="aboutmepage">
-            {/* This is the image section */}
-            <div className="imagesection">
-                <p>Image goes here</p>
-            </div>
             {/* This is info section  */}
             <div className="infosection">
-                <p>About Me:</p>
-                <p>Description goes here</p>
-                <p> lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem 
-                    lorem ipsumlorem ipsumipsumlorem ipsumlorem ipsumlorem 
-                    lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumipsumlorem ipsum</p>
+                <h1>Hello!! I'm Justin Liao</h1>
+                <br/><br/>
+                <p>I'm a Full-Stack Developer with a primary focus on Back-End mechanics. 
+                    I love to build and create applications for all kinds of purposes. I have
+                    a keen eye for detail and love a good challenge or puzzle. Please take some
+                    time and look through my portfolio!!</p>
+            </div>
+            {/* This is the image section */}
+            <div className="imagesection">
+
             </div>
         </div>
     );

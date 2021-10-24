@@ -14,7 +14,9 @@ code {
 
 * {
   margin: 0px;
-  color: black;
+  color: rgb(244, 249, 233);
+  background-color: rgb(21, 50, 67);
+  font-family: 'Roboto', sans-serif;
 }
 
 /* This customizes the navbar */
@@ -25,7 +27,7 @@ code {
 }
 
 .navbar h1 {
-  color: black;
+
 }
 
 .navbar .links {
@@ -49,10 +51,11 @@ code {
 
 /* This customizes the about me section */
 .aboutmepage {
-  width: 100%;
+  padding: 30px 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 35px 0px
 }
 
 .imagesection {
@@ -64,55 +67,107 @@ code {
 .infosection {
   width: 70%;
   padding: 100px;
+  color:rgb(244, 249, 233);
+}
+
+.infosection h1 {
+  font-size: 75px;
+  width: 61%;
 }
 
 /* This customizes the project page and making the cards */
 .projectpage {
   display: flex;
   width: 100%;
+  padding: 30px;
   flex-direction: column;
   align-items: center;
 }
 
 .projectpage h1 {
   align-items: center;
-}
+  margin: 45px;}
 
 .projectcardlist {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;    
   justify-content: center;
+  background-color: rgb(244, 249, 233);
+  border-radius: 35px;
+  box-shadow: 20px 15px  1px  0px  rgb(244, 249, 233);
 }
 
 .card {
-  width: 35%;
-  height: 500px;
-
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;; */
+  width: 25%;
+  height: 450px;
   border-width: 2.5px;
   border-style: solid;
-  margin: 20px 50px;
+  border-color: rgba(0,0,0,0.2);
+  margin: 35px 25px;
+  box-shadow: 20px 15px 5px 0px rgb(238, 240, 235);
+  border-radius: 20px;
+}
+
+.cardimage {
+  border-radius: 20px;
+}
+
+.cardimage img{
+  width: 99%;
+  height: 225px;
+  border-style: solid;
+  border-radius: 25px 20px 50px;
+  color: rgb(21, 50, 67);
+}
+
+.cardinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.cardinfo a {
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-weight: bold;
+  background-color: rgb(244, 249, 233);
+  color: black;
+  margin: 15px;
 }
 
 /* This customizes the Skills and tools section */
+.skillpage {
+  padding: 45px 350px;
+}
+
 .skillpage h1{
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin: 45px;
 }
 
 .skillslist {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.skillslist p {
-  border-style: solid;
-  border-radius: 55px;
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.icons {
   width: 100px;
-  height: 100px;
-  margin: 25px 20px;
+  padding: 10px;
 }
 
 /* This customizes the contacts page */
@@ -120,6 +175,7 @@ code {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding: 30px;
 }
 
 .contactsection {
@@ -128,8 +184,25 @@ code {
 }
 
 .contactsection h2 {
-  text-align: center;
-  padding: 25px;  
+  padding: 25px 0px 0px 0px;  
+}
+
+.info p {
+  font-size: larger;
+  padding: 10px 0px
+}
+
+.sociallinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sociallinks a {
+  text-decoration: none;
+  padding: 15px;
+  border-style: solid;
+  border-radius: 36px;
 }
 
 .formsection {
@@ -145,5 +218,21 @@ code {
 .formsection form{
   display: flex;
   flex-direction: column;
+  background-color: rgb(244, 249, 233);
+  padding: 30px;
+  border-radius: 25px;
+  color:rgb(21, 50, 67);
 }
 
+.form label {
+  color:rgb(21, 50, 67)
+}
+
+.form input {
+  background-color: white;
+}
+
+.form textarea {
+  height: 120px;
+  background-color: white;
+}
