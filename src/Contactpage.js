@@ -1,16 +1,18 @@
+import Resume from './resume.PDF';
+
 const Contactpage = () => {
 
     return (
-        <div className="contactpage">
+        <div className="contactpage" id="contactpage">
             <div className="contactsection">
                 <h2>Contact Info</h2>
                 <p>I love to hear your thoughts about me!!!</p>
                 <br/>
                 <br/>
                 <div className="info">
-                    <p>Email: jyliao369@gmail.com</p>
+                    <p>Email: <a href="mailto:jyliao369@gmail.com">jyliao369@gmail.com</a></p>
                     <p>Phone #: (111) 123-4567</p>
-                    <p>Resume: </p>
+                    <a href={ Resume } id="resume">Resume</a>
                 </div>
                 <br/>
                 <br/>

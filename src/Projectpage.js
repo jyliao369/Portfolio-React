@@ -18,7 +18,7 @@ const ProjectPage = () => {
     ];
 
     return (
-        <div className="projectpage">
+        <div className="projectpage" id="projectpage">
             <h1> Past Projects</h1>
             <div className="projectcardlist">
 

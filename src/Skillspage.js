@@ -21,7 +21,7 @@ const Skillspage = () => {
     ];
 
     return (
-        <div className="skillpage">
+        <div className="skillpage" id="skillpage" >
             <h1>Skills & Tools</h1>
             <div className="skillslist">
                 {skillslist.map((skillslist) => (
