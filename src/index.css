@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,230 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+* {
+  margin: 0px;
+  color: rgb(244, 249, 233);
+  background-color: rgb(21, 50, 67);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* This customizes the navbar */
+.navbar {
+  padding: 30px;
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar h1 {
+
+}
+
+.navbar .links {
+  margin-left: auto;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+/* This customizes the Homepage */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* This customizes the about me section */
+.aboutmepage {
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 35px 0px
+}
+
+.imagesection {
+  width: 30%;
+  text-align: center;
+  padding: 40px;
+}
+
+.infosection {
+  width: 70%;
+  padding: 100px;
+  color:rgb(244, 249, 233);
+}
+
+.infosection h1 {
+  font-size: 75px;
+  width: 61%;
+}
+
+/* This customizes the project page and making the cards */
+.projectpage {
+  display: flex;
+  width: 100%;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectpage h1 {
+  align-items: center;
+  margin: 45px;}
+
+.projectcardlist {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;    
+  justify-content: center;
+  background-color: rgb(244, 249, 233);
+  border-radius: 35px;
+  box-shadow: 20px 15px  1px  0px  rgb(244, 249, 233);
+}
+
+.card {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;; */
+  width: 25%;
+  height: 450px;
+  border-width: 2.5px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.2);
+  margin: 35px 25px;
+  box-shadow: 20px 15px 5px 0px rgb(238, 240, 235);
+  border-radius: 20px;
+}
+
+.cardimage {
+  border-radius: 20px;
+}
+
+.cardimage img{
+  width: 99%;
+  height: 225px;
+  border-style: solid;
+  border-radius: 25px 20px 50px;
+  color: rgb(21, 50, 67);
+}
+
+.cardinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.cardinfo a {
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-weight: bold;
+  background-color: rgb(244, 249, 233);
+  color: black;
+  margin: 15px;
+}
+
+/* This customizes the Skills and tools section */
+.skillpage {
+  padding: 45px 350px;
+}
+
+.skillpage h1{
+  display: flex;
+  justify-content: center;
+  margin: 45px;
+}
+
+.skillslist {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.icons {
+  width: 100px;
+  padding: 10px;
+}
+
+/* This customizes the contacts page */
+.contactpage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 30px;
+}
+
+.contactsection {
+  width: 50%;
+  margin: 0px 150px;
+}
+
+.contactsection h2 {
+  padding: 25px 0px 0px 0px;  
+}
+
+.info p {
+  font-size: larger;
+  padding: 10px 0px
+}
+
+
+.sociallinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sociallinks a {
+  text-decoration: none;
+  padding: 15px;
+  border-style: solid;
+  border-radius: 36px;
+}
+
+.formsection {
+  width: 50%;
+  margin: 0px 150px;
+}
+
+.formsection h2 {
+  text-align: center;
+  padding: 25px;
+}
+
+.formsection form{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(244, 249, 233);
+  padding: 30px;
+  border-radius: 25px;
+  color:rgb(21, 50, 67);
+}
+
+.form label {
+  color:rgb(21, 50, 67)
+}
+
+.form input {
+  background-color: white;
+}
+
+.form textarea {
+  height: 120px;
+  background-color: white;
 }
