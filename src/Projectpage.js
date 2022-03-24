@@ -62,30 +62,36 @@ const ProjectPage = () => {
 
   return (
     <div className="projectpage" id="projectpage">
-      <h1> My Projects</h1>
-      <div className="projectcardlist">
-        {projectList.map((projectList) => (
-          <div className="card">
-            <div className="cardimage">
-              <img src={projectList.image} alt=""></img>
-            </div>
-            <div className="cardinfo" key={projectList.id}>
-              <h2>{projectList.name}</h2>
-              <div>
-                <a href={projectList.github}>
-                  <img
-                    class="projectIcon"
-                    src={githubIcon}
-                    alt="githubIcon"
-                  ></img>
-                </a>
-                <a href={projectList.deployed}>
-                  <img class="projectIcon" src={linkIcon} alt="linkIcon"></img>
-                </a>
+      <div class="projectCon">
+        <h1> My Projects</h1>
+        <div className="projectcardlist">
+          {projectList.map((projectList) => (
+            <div className="card">
+              <div className="cardimage">
+                <img src={projectList.image} alt=""></img>
+              </div>
+              <div className="cardinfo" key={projectList.id}>
+                <h2>{projectList.name}</h2>
+                <div>
+                  <a href={projectList.github}>
+                    <img
+                      class="projectIcon"
+                      src={githubIcon}
+                      alt="githubIcon"
+                    ></img>
+                  </a>
+                  <a href={projectList.deployed}>
+                    <img
+                      class="projectIcon"
+                      src={linkIcon}
+                      alt="linkIcon"
+                    ></img>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

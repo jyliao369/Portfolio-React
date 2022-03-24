@@ -1,15 +1,14 @@
 import Homepage from "./Homepage";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div class="outerContainer">
+      <Navbar />
       <div className="App">
-        <Navbar />
         <Homepage />
-        <br />
-        <br />
-        <br />
+        <Footer />
       </div>
     </div>
   );

@@ -21,14 +21,16 @@ const Skillspage = () => {
 
   return (
     <div className="skillpage" id="skillpage">
-      <h1>Skills & Tools</h1>
-      <div className="skillslist">
-        {skillslist.map((skillslist) => (
-          <div className="icon">
-            <img src={skillslist.icon} className="icons" alt="toolsImg"></img>
-            <p>{skillslist.skill}</p>
-          </div>
-        ))}
+      <div class="skillCon">
+        <h1>Skills & Tools</h1>
+        <div className="skillslist">
+          {skillslist.map((skillslist) => (
+            <div className="icon">
+              <img src={skillslist.icon} className="icons" alt="toolsImg"></img>
+              <p>{skillslist.skill}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

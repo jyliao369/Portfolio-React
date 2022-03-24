@@ -16,7 +16,9 @@ const Welcomepage = () => {
           you!!
         </p>
         <div>
-          <button class="chatBtn">Let's Chat</button>
+          <a href="#contactpage">
+            <button class="chatBtn">Let's Chat</button>
+          </a>
         </div>
       </div>
       <div>
