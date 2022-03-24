@@ -7,7 +7,7 @@ import twitterIcon from "./images/icons8-twitter.png";
 
 const Contactpage = () => {
   return (
-    <div className="contactpage">
+    <div className="contactpage" id="contactpage">
       <div class="contactHeader">
         <p>Contact Info</p>
         <h1>Get In Touch</h1>

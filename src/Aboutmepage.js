@@ -2,7 +2,7 @@ import profilePic from "./images/pic.jpg";
 
 const AboutMePage = () => {
   return (
-    <div className="aboutmepage">
+    <div className="aboutmepage" id="aboutmepage">
       <div class="profilePic">
         <img src={profilePic} alt="profilePic"></img>
         <div class="background2"></div>

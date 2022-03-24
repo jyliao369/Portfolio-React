@@ -3,6 +3,9 @@
   color: rgb(244, 249, 233);
   font-family: "Roboto", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 .outerContainer {
   display: flex;
   justify-content: center;
@@ -39,7 +42,7 @@
   justify-content: space-between;
 }
 .chatBtn {
-  background: red;
+  background: #2491c5;
   border: none;
   padding: 20px;
   font-size: 20px;
@@ -67,6 +70,9 @@
 .smIntro {
   margin-bottom: 15px;
 }
+.position {
+  color: #2491c5;
+}
 .aboutmepage {
   display: flex;
   margin-top: 15%;
@@ -87,7 +93,7 @@
 .background2 {
   position: relative;
   width: 450px;
-  background: red;
+  background: #2491c5;
   height: 600px;
   top: -15px;
   left: -15px;
@@ -104,7 +110,7 @@
   margin-bottom: 10px;
 }
 .resumeBtn {
-  background: red;
+  background: #2491c5;
   border: none;
   padding: 20px;
   font-size: 20px;
@@ -154,7 +160,7 @@
 }
 .projectIcon {
   width: 25px;
-  background: white;
+  background: #2491c5;
   padding: 10px;
   border-radius: 15px;
 }
@@ -164,6 +170,9 @@
   align-items: center;
   margin-top: 10%;
   margin-bottom: 10%;
+}
+.skillpage h1 {
+  margin-bottom: 20px;
 }
 .skillslist {
   display: flex;
@@ -222,7 +231,7 @@
 }
 .links img {
   width: 35px;
-  background: white;
+  background: #2491c5;
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 15px;
