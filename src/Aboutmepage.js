@@ -1,21 +1,36 @@
 const AboutMePage = () => {
-    return (
-        <div className="aboutmepage">
-            {/* This is info section  */}
-            <div className="infosection">
-                <h1>Hello!! I'm Justin Liao</h1>
-                <br/><br/>
-                <p>I'm a Full-Stack Developer with a primary focus on Back-End mechanics. 
-                    I love to build and create applications for all kinds of purposes. I have
-                    a keen eye for detail and love a good challenge or puzzle. Please take some
-                    time and look through my portfolio!!</p>
-            </div>
-            {/* This is the image section */}
-            <div className="imagesection">
-
-            </div>
-        </div>
-    );
-}
+  return (
+    <div className="aboutmepage">
+      <div className="infosection">
+        <p>Who am I...</p>
+        <h1>About Me</h1>
+        <br />
+        <br />
+        <p class="info1">
+          I'm Justin Liao, a creative and enthusiastic application and web
+          developer. Prior to becoming a web developer, I pursued a career in
+          medicine with hopes of using my knowledge and skills to make help make
+          a positive impact. With brand new set of skills and knowledge I hope
+          to do the same and create meaningful applications and projects that
+          have large positve impact.
+        </p>
+        <p class="info2">
+          I am skilled in many languages of web development and have made many
+          projects and sites through the lanaguags of HTML, CSS, JavaScript and
+          more. I have also worked extensively on Back-End languages and frame
+          works as well. Even with learning so many languages and frameworks, I
+          am charged and excited to learn more as the world of IT and Web
+          Developement continues to evovlve.
+        </p>
+        <p class="info3">
+          Diligent, hardworking and self-motivated, I am always looking for the
+          next challenge, the next big idea that can have large positive
+          implications. I always work towards achieving best result on each
+          project and I welcome any challenge, big or small.
+        </p>
+      </div>
+    </div>
+  );
+};
 
 export default AboutMePage;
