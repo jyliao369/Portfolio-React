@@ -134,17 +134,29 @@
   flex-direction: column;
   align-items: center;
   margin: 10px;
+  margin-bottom: 30px;
 }
 .cardinfo {
-  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10px;
 }
 .cardinfo a {
   text-decoration: none;
   font-size: 25px;
+  margin-left: 10px;
 }
 .cardimage img {
   width: 385px;
   height: 250px;
+}
+.projectIcon {
+  width: 25px;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
 }
 .skillpage {
   display: flex;
