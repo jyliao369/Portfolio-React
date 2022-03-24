@@ -1,3 +1,5 @@
+import Resume from "./resume.pdf";
+
 const Navbar = () => {
   return (
     <div class="navbar">
@@ -7,7 +9,7 @@ const Navbar = () => {
         <a href="#skillpage">Skills and Tools</a>
         <a href="#projectpage">Past Projects</a>
         <a href="#contactpage">Contact Info</a>
-        <p>Resume</p>
+        <a href={Resume}>Resume</a>
       </nav>
     </div>
   );

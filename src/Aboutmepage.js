@@ -1,4 +1,5 @@
 import profilePic from "./images/pic.jpg";
+import Resume from "./resume.pdf";
 
 const AboutMePage = () => {
   return (
@@ -36,7 +37,9 @@ const AboutMePage = () => {
             project and I welcome any challenge, big or small.
           </p>
           <div>
-            <button class="resumeBtn">Download Resume</button>
+            <button class="resumeBtn">
+              <a href={Resume}>Download Resume</a>
+            </button>
           </div>
         </div>
       </div>

@@ -127,6 +127,9 @@ html {
   padding-right: 40px;
   padding-left: 40px;
 }
+.resumeBtn a {
+  text-decoration: none;
+}
 .projectpage {
   display: flex;
   flex-direction: column;
