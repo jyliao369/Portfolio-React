@@ -38,6 +38,16 @@
   align-items: center;
   justify-content: space-between;
 }
+.chatBtn {
+  background: red;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 35px;
+  margin-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
 .introContainer img {
   width: 750px;
 }
@@ -60,15 +70,48 @@
 .aboutmepage {
   display: flex;
   margin-top: 15%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
+  justify-content: center;
+}
+.profilePic {
+  margin-right: 50px;
+}
+.profilePic img {
+  position: absolute;
+  width: 450px;
+  z-index: 2;
+  border: solid;
+  border-width: 14px;
+  border-color: #202020;
+}
+.background2 {
+  position: relative;
+  width: 450px;
+  background: red;
+  height: 600px;
+  top: -15px;
+  left: -15px;
+  z-index: 1;
 }
 .infosection {
-  width: 325px;
+  width: 450px;
+  margin-right: 50px;
+  padding: 15px;
 }
 .info1,
 .info2,
 .info3 {
   margin-bottom: 10px;
+}
+.resumeBtn {
+  background: red;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 35px;
+  margin-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 .projectpage {
   display: flex;
@@ -78,7 +121,7 @@
   margin-bottom: 10%;
 }
 .projectpage h1 {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .projectcardlist {
   display: flex;
@@ -146,18 +189,39 @@
 .contactsection {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 25px;
+}
+.contactHeader {
+  margin-bottom: 50px;
 }
 .contactHeader h1 {
   margin-bottom: 25px;
 }
-.contactHeader p {
-  margin-bottom: 10px;
-}
 .sociallinks {
   display: flex;
   flex-direction: column;
+  margin-right: 70px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.links img {
+  width: 35px;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.links p {
+  font-size: 17px;
+  padding: 15px;
+}
+.formSection {
+  width: 600px;
+  margin-left: 70px;
 }
 .formSection h2 {
   margin-bottom: 10px;
@@ -165,7 +229,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: 550px;
 }
 .nameForm,
 .emailForm,

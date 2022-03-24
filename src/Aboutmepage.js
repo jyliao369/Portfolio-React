@@ -1,6 +1,12 @@
+import profilePic from "./images/pic.jpg";
+
 const AboutMePage = () => {
   return (
     <div className="aboutmepage">
+      <div class="profilePic">
+        <img src={profilePic} alt="profilePic"></img>
+        <div class="background2"></div>
+      </div>
       <div className="infosection">
         <p>Who am I...</p>
         <h1>About Me</h1>
@@ -28,6 +34,9 @@ const AboutMePage = () => {
           implications. I always work towards achieving best result on each
           project and I welcome any challenge, big or small.
         </p>
+        <div>
+          <button class="resumeBtn">Download Resume</button>
+        </div>
       </div>
     </div>
   );

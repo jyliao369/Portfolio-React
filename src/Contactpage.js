@@ -1,4 +1,9 @@
-import Resume from "./resume.PDF";
+import phoneIcon from "./images/icons8-phone.png";
+import emailIcon from "./images/icons8-email.png";
+import facebookIcon from "./images/icons8-facebook.png";
+import githubIcon from "./images/icons8-github.png";
+import linkedIcon from "./images/icons8-linkedin.png";
+import twitterIcon from "./images/icons8-twitter.png";
 
 const Contactpage = () => {
   return (
@@ -16,22 +21,37 @@ const Contactpage = () => {
       </div>
       <div className="contactsection">
         <div class="sociallinks">
-          <p>
-            Email: <a href="mailto:jyliao369@gmail.com">jyliao369@gmail.com</a>
-          </p>
-          <p>Phone #: (111) 123-4567</p>
-          <a href="https://github.com/jyliao369">GitHub</a>
-          <a href="https://www.linkedin.com/in/justin-liao-64a75a17a/">
-            LinkedIn
-          </a>
-          <a href="">Twitter</a>
-          <a href="">Facebook</a>
-          <a href={Resume} id="resume">
-            Resume
-          </a>
+          <div class="links">
+            <img src={emailIcon} alt="emailicon"></img>
+            <p>
+              Email:
+              <a href="mailto:jyliao369@gmail.com">jyliao369@gmail.com</a>
+            </p>
+          </div>
+          <div class="links">
+            <img src={phoneIcon} alt="phoneicon"></img>
+            <p>Phone #: (111) 123-4567</p>
+          </div>
+          <div class="links">
+            <img src={githubIcon} alt="phoneicon"></img>
+            <a href="https://github.com/jyliao369">GitHub</a>
+          </div>
+          <div class="links">
+            <img src={linkedIcon} alt="phoneicon"></img>
+            <a href="https://www.linkedin.com/in/justin-liao-64a75a17a/">
+              LinkedIn
+            </a>
+          </div>
+          <div class="links">
+            <img src={twitterIcon} alt="phoneicon"></img>
+            <a href="">Twitter</a>
+          </div>
+          <div class="links">
+            <img src={facebookIcon} alt="phoneicon"></img>
+            <a href="">Facebook</a>
+          </div>
         </div>
         <div className="formSection">
-          <h2>Leave a Message</h2>
           <form className="form">
             <input class="nameForm" type="text" required placeholder="Name" />
             <input
@@ -50,7 +70,7 @@ const Contactpage = () => {
               class="messageForm"
               type="text"
               required
-              rows="5"
+              rows="11"
               placeholder="Message"
             />
           </form>

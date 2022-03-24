@@ -15,6 +15,9 @@ const Welcomepage = () => {
           Take a look around!! I look forward to getting to know and work with
           you!!
         </p>
+        <div>
+          <button class="chatBtn">Let's Chat</button>
+        </div>
       </div>
       <div>
         <img src={WebDev} alt="welcomeImage"></img>
